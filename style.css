@@ -1,0 +1,93 @@
+@font-face{
+	font-family: "Bellota";
+  src: url("Bellota-Regular-webfont.woff") format('woff');
+}
+
+body{
+  font-family: "Bellota";
+  background-color: #303030;
+}
+u{
+  color:#15c5bd;
+}
+.principal{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  padding: 15px 0px 15px 20px;
+  background-color:#FFFF;
+  display:flex;
+}
+
+.support{
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 70px;
+}
+
+.help{
+  font-size: 20px;
+  margin: -5px 0px 5px 0px;
+}
+
+main{
+  padding:20px 0 5px 20px;
+  border-left: 1px solid #15c5bd;
+  border-right: 1px solid #15c5bd;
+  color: white;
+}
+
+.textarea{
+  float:right;
+  margin-top: -200px;
+  margin-right: 10px;
+}
+
+.nominput{
+  margin: -2px 0px -10px 10px;
+  display:flex;
+}
+
+.nominput p{
+  margin-right: 140px;
+}
+
+.nom{
+  margin: -2px 0 -10px 10px;
+  display:flex;
+}
+
+.nom p{
+  margin-right: 150px;
+}
+
+input[type="text"] {
+  margin: 0 30px 0 0;
+}
+
+select{
+  margin-left: 30px;
+}
+
+select[name="country"] {
+  margin-left: 43px;
+}
+
+input[type="submit"] {
+  margin: 0 10px 0 5px;
+}
+
+.field{
+  font-size: 11px;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+footer{
+  padding: 1px 0px 1px 0px;
+  text-align:center;
+  background-color: #FFFF;
+}
